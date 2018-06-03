@@ -45,7 +45,7 @@ nav {
 }
 
 .bar div {
-	height: 4px;
+	height: 6px;
 	background-color: black;
 	margin: 5px 0;
 	border-radius: 25px;
@@ -71,8 +71,8 @@ nav {
 	color: black;
 	text-indent: -10000px;
 	background: url(tedx.png) no-repeat center;
-	width: 55%;
-	background-size: 300px;
+	width: 50%;
+	
 
 }
 
