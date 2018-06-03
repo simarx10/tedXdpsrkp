@@ -27,7 +27,7 @@ nav ul {
 nav li {
 	list-style: none;
 	line-height: 40px;
-	font-size: 15px;
+	font-size: 20px;
 
 }
 
@@ -67,7 +67,7 @@ nav {
 	color: black;
 	text-indent: -10000px;
 	background: url(tedx.png) no-repeat center;
-	background-size: 250px;
+	width: 55%;
 
 }
 
