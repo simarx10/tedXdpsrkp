@@ -196,8 +196,8 @@ p {
 
 .members {
 	border-radius: 400px;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	position: relative;
 	left: 50%;
 	transform: translateX(-45%);
@@ -208,6 +208,7 @@ h4 {
 	text-align: center;
 	color: red;
 	font-size: 30px;
+	padding-bottom: 25px;
 
 }
 
@@ -218,7 +219,7 @@ h4 {
 .description {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 75px 0 75px;
-	font-size: 27px;
+	font-size: 22px;
 	line-height: 45px;
 	text-align: center;
 
