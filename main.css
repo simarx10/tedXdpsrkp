@@ -159,13 +159,13 @@ h3 {
 	text-align: center;
 	color: black;
 	padding: 15px;
-	font-weight: normal;
-	font-size: 20px;
-    font-family: 'Nunito Sans', sans-serif;
+	
+	font-size: 24px;
+   
 }
 
 p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0 15px 0 15px;
 	font-size: 17px;
 	line-height: 35px;
