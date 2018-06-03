@@ -196,8 +196,8 @@ p {
 
 .members {
 	border-radius: 400px;
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	position: relative;
 	left: 50%;
 	transform: translateX(-45%);
