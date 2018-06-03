@@ -47,7 +47,7 @@ nav {
 .bar div {
 	height: 10px;
 	background-color: black;
-	margin: 5px 0;
+	margin: 8px 0;
 	border-radius: 25px;
 }
 
@@ -64,15 +64,9 @@ nav {
 	transition: 0.4s
 }
 
-.logo {
-	padding-top: 70px;
-	padding-left: 170px;
-	text-decoration: none;
-	color: black;
-	text-indent: -10000px;
-	background: url(tedx.png) no-repeat center;
-	width: 50%;
-	height: 100px;
+.logoimg {
+	width: 300px;
+	height: 300px;
 }
 
 .change .one {
@@ -180,4 +174,5 @@ p {
     text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin: 0;
 }
