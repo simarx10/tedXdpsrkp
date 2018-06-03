@@ -67,6 +67,8 @@ nav {
 	width: 450px;
 	height: 450px;
 	display: inline-block;
+	padding-left: 30px;
+
 }
 
 .change .one {
