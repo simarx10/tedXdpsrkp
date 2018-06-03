@@ -1,0 +1,129 @@
+<html>
+<head>
+<link href="main.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat"
+ rel="stylesheet">
+ </head>
+<body>
+	<div class="wrapper">
+		<!-- This is the navbar -->
+<nav>
+
+	
+		<a href="#" class="logo"> Logo	</a>
+	
+	<div class="bar" onclick="myFunction(this)"
+	onclick="myFunction()">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+	</div>
+
+ <script type="text/javascript">
+	function myFunction(x) {
+    x.classList.toggle("change");
+}
+
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+ <ul id="myDIV" ="menu">
+<li><a href=""> HOME </a></li>
+<li><a href=""> TALKS </a></li>
+<li><a href=""> SPEAKERS </a></li>
+<li><a href=""> EVENTS </a></li>
+<li><a href=""> ABOUT US </a></li>
+</ul>
+</div>
+</nav>
+
+<!-- This is the countdown -->
+<div id="del-countdown">
+      <h1 class="eventname">MEGA EVENT</h1>
+      <div id="clock"></div>
+      <div id="units">
+        <span>Days</span>
+        <span>Hours</span>
+        <span>Minutes</span>
+        <span>Seconds</span>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    	function updateTimer(deadline){
+  var time = deadline - new Date();
+  return {
+    'days': Math.floor( time/(1000*60*60*24) ),
+    'hours': Math.floor( (time/(1000*60*60)) % 24 ),
+    'minutes': Math.floor( (time/1000/60) % 60 ),
+    'seconds': Math.floor( (time/1000) % 60 ),
+    'total' : time
+  };
+}
+
+
+function animateClock(span){
+  span.className = "turn";
+  setTimeout(function(){
+    span.className = "";
+  },700);
+}
+
+function startTimer(id, deadline){
+  var timerInterval = setInterval(function(){
+    var clock = document.getElementById(id);
+    var timer = updateTimer(deadline);
+
+    clock.innerHTML = '<span>' + timer.days + '</span>'
+                    + '<span>' + timer.hours + '</span>'
+                    + '<span>' + timer.minutes + '</span>'
+                    + '<span>' + timer.seconds + '</span>';
+
+    //animations
+    var spans = clock.getElementsByTagName("span");
+    animateClock(spans[3]);
+    if(timer.seconds == 59) animateClock(spans[2]);
+    if(timer.minutes == 59 && timer.seconds == 59) animateClock(spans[1]);
+    if(timer.hours == 23 && timer.minutes == 59 && timer.seconds == 59) animateClock(spans[0]);
+
+    //check for end of timer
+    if(timer.total < 1){
+      clearInterval(timerInterval);
+      clock.innerHTML = '<span>0</span><span>0</span><span>0</span><span>0</span>';
+    }
+
+
+  }, 1000);
+}
+
+
+window.onload = function(){
+  var deadline = new Date("June 25, 2015 00:00:00");
+  startTimer("clock", deadline);
+};
+    </script>
+    <hr>
+    <div class="content">
+    <h3> What is Lorem Ipsum? </h3>
+    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p><hr>
+
+    <img src="demo.png" class="demoimg">
+
+    <h3> Where does it come from? </h3>
+
+    <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p><hr>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	margin: 0;
+		font-family: Montserrat, sans-serif;
+}
+
+.wrapper {
+	width: 100%;	
+	margin: 0 auto;
+}
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+	color: black;	
+}
+
+.myDIV {
+	width: 100%;
+}
+
+nav ul {
+	width: 100%;	
+	text-align: center;
+}
+
+nav li {
+	list-style: none;
+	line-height: 40px;
+
+}
+
+
+nav {
+	display: flex;	
+	justify-content: space-between;
+	flex: 1 1 0;
+	flex-wrap: wrap;
+
+}
+
+.bar div {
+	height: 4px;
+	background-color: black;
+	margin: 5px 0;
+	border-radius: 25px;
+}
+
+.bar {
+	width: 30px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-right: 10px;
+    cursor: pointer;	
+	
+}
+
+.one, .two, .three {
+	transition: 0.4s
+}
+
+.logo {
+	padding-top: 70px;
+	padding-left: 170px;
+	text-decoration: none;
+	color: black;
+	text-indent: -10000px;
+	background: url(tedx.png) no-repeat center;
+
+}
+
+.change .one {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .two {
+    opacity: 0;
+}
+
+.change .three {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+hr {
+	margin: 7%;
+	border-color: #dce1ea;
+}
+
+.eventname {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding-bottom: 10px;
+}
+#del-countdown{
+  width: 100%;
+  margin: 15% auto;
+}
+#clock span{
+  float: left;
+  text-align: center;
+  font-size: 35px;
+  margin: 0 2.5%;
+  color: black;
+  padding: 20px;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+#clock span:nth-child(1){
+  background: #fa5559;
+}
+#clock span:nth-child(2){
+  background: #26c2b9;
+}
+#clock span:nth-child(3){
+  background: #f6bc58;
+}
+#clock span:nth-child(4){
+  background: #2dcb74;
+}
+#clock:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+span.turn{
+  animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+  0%{transform: rotateX(0deg)}
+  100%{transform: rotateX(360deg)}
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+	color: black;
+	padding: 15px;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 15px 0 15px;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+.demoimg {
+	width: 100%;
+	padding: 15px 0 15px 0;
+}
