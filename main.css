@@ -53,7 +53,7 @@ nav {
 .bar {
 	width: 50px;
 	display: inline-block;
-	padding-top: 20px;
+	padding-top: 175px;
 	padding-right: 30px;
     cursor: pointer;	
 	
@@ -66,6 +66,7 @@ nav {
 .logoimg {
 	width: 450px;
 	height: 450px;
+	display: inline-block;
 }
 
 .change .one {
