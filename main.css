@@ -166,14 +166,22 @@ h3 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 15px 0 15px;
+	margin: 0 30px 0 30px;
 	font-size: 15px;
 	line-height: 45px;
 }
 
-.indeximg {
+.alignimg {
+
 	width: 100%;
-    text-align: center;
+	height: auto;
+	background-position: center;
+	background-size: cover;
 	margin: 0;
+}
+
+.indeximg {
 	padding: 40px 0 40px 0;
+	min-width: 100%;
+	
 }
