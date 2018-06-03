@@ -1,7 +1,11 @@
 * {
 	padding: 0;
 	margin: 0;
-		font-family: Montserrat, sans-serif;
+
+}
+
+body {
+	font-family: Montserrat, sans-serif;
 }
 
 .wrapper {
@@ -150,21 +154,28 @@ span.turn{
   100%{transform: rotateX(360deg)}
 }
 
+.content {
+	font-family: Helvetica, sans-serif;
+}
+
 h3 {
 	width: 100%;
 	text-align: center;
 	color: black;
 	padding: 15px;
 	font-weight: normal;
+	font-size: 20px;
 }
 
 p {
 	margin: 0 15px 0 15px;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 1.4em;
 }
 
 .demoimg {
 	width: 100%;
-	padding: 15px 0 15px 0;
+    text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
