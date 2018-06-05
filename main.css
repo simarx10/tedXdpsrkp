@@ -43,6 +43,8 @@ nav {
 
 }
 
+
+
 .bar div {
 	height: 10px;
 	background-color: black;
@@ -92,7 +94,7 @@ hr {
 
 .eventname {
   width: 100%;
-  color: black;
+  color: red;
   text-align: center;
   font-size: 20px;
   letter-spacing: 10px;
@@ -173,11 +175,11 @@ p {
 
 .alignimg {
 
-	width: 100%;
+	width: 100% ;
 	height: auto;
 	background-position: center;
 	background-size: cover;
-	margin: 0;
+	margin: 0 ;
 }
 
 .indeximg {
@@ -224,3 +226,128 @@ h4 {
 	text-align: center;
 
 }
+
+@media screen and (min-width: 1200px) {
+	.bar {
+		display: none;
+	}
+
+	nav li {
+		display: inline-block;
+		font-size: 20px;
+		padding: 0 7px 0 7px;
+		text-align: center;
+	}
+
+    .logoimg {
+    	float: left;
+    	position: relative;
+    	top: -60px;
+    	width: 250px;
+    	height: 250px;
+    	text-align: center;
+    }
+
+
+
+  .navline {
+  	position: relative;
+  	top: -130px;
+  	margin: 0;
+  }
+
+
+
+    nav {
+	display: flex;	
+	justify-content: space-between;
+	flex: 1 1 0;
+	flex-wrap: wrap;
+	overflow: hidden;
+
+
+}
+
+   #del-countdown {
+
+  width: 65%;
+  margin: -2% auto;
+}   
+
+    nav ul {
+    	float: left;
+    	text-align: right;
+    	position: absolute;
+    	top: 20px;
+    
+    }
+
+    nav ul li {
+    	margin-right: 5%;
+    }
+
+    nav ul li a:hover {
+    	color: red;
+    }
+
+  .bodyline {
+  	position: relative;
+  	left: 3%;
+  }
+
+    .content {
+        position: relative;
+        margin: -2% 0;
+    }
+
+   .left {
+   	width: 50%;
+   	float: left;
+   	position: relative;
+   }
+
+   .right {
+   	width: 50%;
+   	float: right;
+   	position: relative;
+
+   }
+
+    .alignimg {
+
+	width: 50% ;
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+    .indeximg {
+	padding: 3%;
+	min-width: auto;	
+	}
+
+	p {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 75px 0 75px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+	color: black;
+	padding: 10px;
+	
+	font-size: 23px;
+   
+}
+
+.timerline {
+	display: none;
+}
+
+	
+
+	}
