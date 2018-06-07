@@ -40,6 +40,7 @@ nav {
 	justify-content: space-between;
 	flex: 1 1 0;
 	flex-wrap: wrap;
+	overflow: hidden;
 
 }
 
@@ -72,6 +73,12 @@ nav {
 	padding-left: 30px;
 
 }
+
+ .navline {
+  	position: relative;
+  	top: -7%;
+  	
+  }
 
 .change .one {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
@@ -197,11 +204,13 @@ p {
 
 .members {
 	border-radius: 400px;
+	
+	border: 2px solid red;
 	width: 500px;
 	height: 500px;
 	position: relative;
 	left: 50%;
-	transform: translateX(-45%);
+	transform: translateX(-50%);
 	margin: 30px 0 30px 0;
 }
 
@@ -360,7 +369,7 @@ h3 {
 }
 
 .saksham1 {
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 .names {
 	font-size: 30px;
