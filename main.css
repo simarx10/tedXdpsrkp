@@ -74,12 +74,6 @@ nav {
 
 }
 
- .navline {
-  	position: relative;
-  	top: -7%;
-  	
-  }
-
 .change .one {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
