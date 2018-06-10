@@ -102,7 +102,7 @@ hr {
   padding-bottom: 25px;
 }
 #del-countdown{
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat, sans-serif
   width: 100%;
   margin: 15% auto;
 }
@@ -111,23 +111,23 @@ hr {
   text-align: center;
   font-size: 100px;
   margin: 0 2.5%;
-  color: black;
+  color: white;
   padding: 20px;
   width: 20%;
-  border-radius: 20px;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 #clock span:nth-child(1){
-  background: #fa5559;
+  background: #e62b1e;
 }
 #clock span:nth-child(2){
-  background: #26c2b9;
+  background: #e62b1e;
 }
 #clock span:nth-child(3){
-  background: #f6bc58;
+  background: #e62b1e;
 }
 #clock span:nth-child(4){
-  background: #2dcb74;
+  background: #e62b1e;
 }
 #clock:after{
   content: "";
@@ -146,7 +146,7 @@ hr {
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
 }
-
+/*
 span.turn{
   animation: turn 0.7s ease forwards;
 }
@@ -155,6 +155,8 @@ span.turn{
   0%{transform: rotateX(0deg)}
   100%{transform: rotateX(360deg)}
 }
+
+*/
 
 
 
@@ -210,7 +212,7 @@ p {
 
 h4 {
 	text-align: center;
-	color: red;
+	color: #e62b1e;
 	font-size: 30px;
 	padding-bottom: 25px;
 }
@@ -228,7 +230,7 @@ h4 {
 
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
 	.bar {
 		display: none;
 	}
@@ -254,7 +256,8 @@ h4 {
     }
 
     header nav ul li a:hover {
-    	color: red;
+    	color: #e62b1e;
+    	border-bottom: 1px solid #e62b1e;
     }
 
     header nav {
@@ -264,10 +267,39 @@ h4 {
 	flex-wrap: wrap;
 	overflow: hidden;
 }
+.wrapper {
+	padding-bottom: 60px;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	margin-top: -60px;
+	clear: both;
+	background-color: lightgrey;
+
+}
+
+#footer ul {
+	list-style: none;
+	text-align: center;
+	
+}
+
+#footer ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#footer ul li a {
+	color: black;
+	text-decoration: none;
+}
 
  .navline {
   	position: relative;
-  	top: -130px;
+  	top: -180px;
   	margin: 0;
   }
 
@@ -283,8 +315,9 @@ h4 {
 
    #del-countdown {
 
+   	font-family: 'Montserrat', sans-serif;
   width: 65%;
-  margin: -2% auto;
+  margin: -5% auto;
 }   
 
   .bodyline {

@@ -1,0 +1,55 @@
+<html>
+<head>
+<link href="main.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat"
+ rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ </head>
+<body>
+  <header>
+  <div class="wrapper">
+    <!-- This is the navbar -->
+<nav>
+    
+     <a href="#"> <img src="tedx.png" class="logoimg"></a>
+
+
+  <div class="bar" onclick="myFunction(this)"
+  onclick="myFunction()">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+
+ <ul id="myDIV" ="menu">
+<li><a href=""> HOME </a></li>
+<li><a href=""> TALKS </a></li>
+<li><a href="speakerstedx.html"> SPEAKERS </a></li>
+<li><a href=""> EVENTS </a></li>
+<li><a href="about.html"> ABOUT US </a></li>
+</ul>
+</div>
+</nav><hr class="navline">
+</header>
+
+
+
+</div>
+
+</body>
+</html>
+
+ <script type="text/javascript">
+  function myFunction(x) {
+    x.classList.toggle("change");
+}
+
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
