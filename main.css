@@ -12,7 +12,7 @@ body {
 	width: 100%;	
 	}
 
-nav a {
+header nav a {
 	text-decoration: none;
 	text-align: center;
 	color: black;	
@@ -22,20 +22,29 @@ nav a {
 	width: 100%;
 }
 
-nav ul {
+header nav ul {
 	width: 100%;	
 	text-align: center;
 }
 
-nav li {
+header nav li {
 	list-style: none;
 	line-height: 80px;
 	font-size: 40px;
 
 }
 
+header nav ul li a:hover {
+	color: #e62b1e;
 
-nav {
+}
+
+header nav ul li a.active {
+	color: #e62b1e;
+}
+
+
+header nav {
 	display: flex;	
 	justify-content: space-between;
 	flex: 1 1 0;
@@ -239,10 +248,7 @@ h4 {
 	position: relative;
 	width: 100%;
 	height: 60px;
-	margin-top: -60px;
 	clear: both;
-
-
 }
 
 #footer ul {
@@ -252,8 +258,8 @@ h4 {
 }
 
 #footer ul li {
-	display: inline-block;
-	padding: 60px 15px;
+	display: block;
+	padding: 18px 0;
 
 	
 }
@@ -261,13 +267,63 @@ h4 {
 #footer ul li a {
 	color: black;
 	text-decoration: none;
-	font-size: 2px;
+	font-size: 18px;
 }
 
 #footer ul li a:hover {
     	color: #e62b1e;
 
     }
+
+    .icons {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+    .iconsnav {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 30px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.abtted {
+
+	color: #666;
+	padding-top: 40px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+
+.abtteddesc {
+	
+	padding: 0 5% 30px 5%;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: center;	
+
+}
+
+.lastline {
+	display: none;
+}
+
+.textfooter {
+	border-top: 3px solid rgba(17,17,17,.1);
+	border-bottom: 3px solid red;
+}
 
 @media screen and (min-width: 1200px) {
 	.bar {
@@ -304,8 +360,11 @@ h4 {
 	overflow: hidden;
 	width: 100%;
 	height: 150px; 
-	
 
+}
+
+    header nav ul li a.active {
+	color: #e62b1e;
 }
 
 .mainbody {
@@ -321,8 +380,7 @@ h4 {
 	height: 60px;
 	margin-top: -60px;
 	clear: both;
-	border-top: 1px solid lightgrey;
-
+	
 }
 
 #footer ul {
@@ -332,21 +390,20 @@ h4 {
 }
 
 #footer ul li {
-	display: inline-block;
-	padding: 4%;
-
+	display: block;
+	padding: 15px;
 	
 }
 
 #footer ul li a {
-	color: black;
+	color: #333;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 #footer ul li a:hover {
     	color: #e62b1e;
-    	border-bottom: 1px solid #e62b1e;
-    }
+        }
 
  .navline {
   	position: relative;
@@ -358,7 +415,7 @@ h4 {
     	float: left;
     	position: absolute;
     	top: 10px;
-    	width:275px;
+    	width:300px;
     	height: 125px;
     	text-align: center;
     	background-color: transparent;
@@ -471,6 +528,45 @@ h4 {
 
 }
 
+.abtted {
+
+	color: #666;
+	padding-top: 40px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+
+.abtteddesc {
+	
+	padding: 0 5% 30px 5%;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: center;
+	
+
+}
+
+.textfooter {
+	border-top: 3px solid rgba(17,17,17,.1);
+	border-bottom: 3px solid red;
+}
+
+.icons {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
 	
 
 	}
