@@ -54,6 +54,12 @@ header nav {
 }
 
 
+#myDIV {
+	width: 100%;
+	text-align: center;
+}
+
+
 
 .bar div {
 	height: 10px;
@@ -160,12 +166,10 @@ hr {
 span.turn{
   animation: turn 0.7s ease forwards;
 }
-
 @keyframes turn{
   0%{transform: rotateX(0deg)}
   100%{transform: rotateX(360deg)}
 }
-
 */
 
 
@@ -268,7 +272,7 @@ h4 {
 #footer ul li a {
 	color: black;
 	text-decoration: none;
-	font-size: 23px;
+	font-size: 32px;
 }
 
 #footer ul li a:hover {
@@ -279,7 +283,7 @@ h4 {
     .icons {
 	width: 100%;
 	text-align: center;
-	font-size: 40px;
+	font-size: 45px;
 	padding-bottom: 50px;
 }
 
@@ -311,7 +315,7 @@ h4 {
 .abtteddesc {
 	
 	padding: 0 3% 30px 3%;
-	font-size: 23px;
+	font-size: 35px;
 	line-height: 1.5em;
 	text-align: center;	
 
